@@ -23,9 +23,10 @@ body {
     font-size: 40px;
 }
 
-#search {
-    color: 081110;
-    border-color: 081110;
+.btn.btn-outline-success{
+    color: #fafdfc;
+    border-color: #58b2a7;
+    background-color: #58b2a7;
 }
 
 .navbar {
@@ -43,12 +44,14 @@ h1 {
     width: 18rem;
     margin: 1rem 0;
     border-top: 4px solid #99a4d0;
+    
     height: auto;
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
+    padding-top: 1rem;
 }
 
 .card-body {
@@ -68,8 +71,8 @@ h1 {
 
 .btn-primary {
     color: #fff;
-    background-color: #58b2a7;
-    border-color: #58b2a7;
+    background-color: #99a4d0;
+    border-color: #99a4d0;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: 0.25rem;
@@ -77,6 +80,11 @@ h1 {
 }
 
 .btn-primary:hover {
-    background-color: #99a4d0;
-    border-color: #99a4d0;
+    background-color: #58b2a7;
+    border-color: #58b2a7;
+}
+
+.btn-primary:disabled {
+    background-color: #ced4da;
+    color: #6c757d; 
 }
